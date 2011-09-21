@@ -1,0 +1,13 @@
+= 项目：tomcat的扩展工具包 =
+
+== 目录说明 ==
+tomcat-tools
+  |-src	源代码
+  |-test/src JUnit测试源代码
+  |-docs 一些开发说明文档，不包括产品文档(如操作手册等)
+  |-test 一些测试相关
+  |-lib 第三方包或源代码文件夹
+    |- lib.log (第三方包添加说明)
+
+== 基于Redis的Session管理 ==
+	1. 基础类：org.skzr.catalina.session.RedisManager    
